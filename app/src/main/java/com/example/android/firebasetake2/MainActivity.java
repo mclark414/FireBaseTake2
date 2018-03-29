@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
     public void set(View view){
         Person temp;
         EditText name_text = (EditText) findViewById(R.id.name_input);
-        String name = name_text.toString();
+        String name = (name_text.getText()).toString();
         EditText age_text = (EditText) findViewById(R.id.age_input);
-        String age_string = age_text.toString();
+        String age_string = (age_text.getText()).toString();
         int age = Integer.parseInt(age_string);
         CheckBox grad_input = (CheckBox) findViewById(R.id.grad_input);
         boolean grad;
@@ -36,5 +36,23 @@ public class MainActivity extends AppCompatActivity {
         }
         temp = new Person(name, age, grad);
         personRef.setValue(temp);
+    }
+    public void add(View view){
+        Person temp;
+        EditText name_text = (EditText) findViewById(R.id.name_input);
+        String name = (name_text.getText()).toString();
+        EditText age_text = (EditText) findViewById(R.id.age_input);
+        String age_string = (age_text.getText()).toString();
+        int age = Integer.parseInt(age_string);
+        CheckBox grad_input = (CheckBox) findViewById(R.id.grad_input);
+        boolean grad;
+        if(grad_input.isChecked()){
+            grad = true;
+        }
+        else{
+            grad = false;
+        }
+        temp = new Person(name, age, grad);
+        personRef.push().setValue(temp);
     }
 }
