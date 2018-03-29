@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "541599262863",
-    "firebase_url": "https://inclassassignments.firebaseio.com",
-    "project_id": "inclassassignments",
-    "storage_bucket": "inclassassignments.appspot.com"
+    "project_number": "866287547120",
+    "firebase_url": "https://testing-bd8c2.firebaseio.com",
+    "project_id": "testing-bd8c2",
+    "storage_bucket": "testing-bd8c2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:541599262863:android:00bd271926533b37",
+        "mobilesdk_app_id": "1:866287547120:android:2bd5ad18f7b4c142",
         "android_client_info": {
-          "package_name": "com.example.android.firebasetest"
+          "package_name": "com.example.android.firebasetake2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "541599262863-bhgvtptdltu8gci0tu5caq7k0eidqg8q.apps.googleusercontent.com",
+          "client_id": "866287547120-lukkrn2o7jjktf7hjki75dirqnvngm58.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBXDjbMya1J5xHzzdOuTmLmgP0zAFR6emA"
+          "current_key": "AIzaSyC-kJTOtW51QZPEM3H3aLmBH9JOfRjoA1k"
         }
       ],
       "services": {
